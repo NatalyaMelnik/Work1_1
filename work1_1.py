@@ -8,7 +8,6 @@ with open('token.txt', 'r', encoding='utf-8') as file_object:
     token = file_object.readline().strip()
     token_YD = file_object.readline().strip()
 
-
 class VkUser:
     url = 'https://api.vk.com/method/'
 
